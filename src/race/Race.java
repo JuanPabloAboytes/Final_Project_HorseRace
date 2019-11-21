@@ -16,6 +16,8 @@ public class Race {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        start Start = new start();
+        Start.setVisible(true);
     }
     
 }

@@ -26,6 +26,7 @@ public class Race_s extends Thread{
     private JLabel comments_label; 
     public int number_r;
     
+    
     public Race_s(JLabel eti, RaceFrame2 r,JLabel p1_score, int p1_s,JLabel p2_score, int p2_s,JLabel comments_label,int number_r){
         this.eti = eti;
         this.r = r;
@@ -35,10 +36,6 @@ public class Race_s extends Thread{
         this.p2_s = 0;
         this.comments_label = comments_label;
         this.number_r = number_r;
-    }
-
-    public int getNumber_r() {
-        return number_r;
     }
         
     synchronized void setNumber_r(int r) {

@@ -21,7 +21,7 @@ public class RaceFrame2 extends javax.swing.JFrame {
         initComponents();
     }
     
-        public JLabel getFinal_line() {
+    public JLabel getFinal_line() {
         return final_line;
     }
 
